@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor //기본 자동생성자
 // JPA 어노테이션, 테이블과 링크될 클래스
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity{
 
     @Id //PK
     //PK의생선규칙
